@@ -1,99 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  </head>
-  <body>
-    <!-- Top banner Html start-->
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Sultan Kisana</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css">
+
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navbar content -->
+  <header id="masthead">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html" id="logo">Sultan Kisana</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
       </div>
-    </header>
+    </nav>
+  </header>
   <div id="main-container" class="container">
     <section class="main-container">
-      <h1>portfolio</h1>
+      <div class="row first-row">
+        <h1 class='col-12'>Portfolio</h1>
+      </div>
 
-      <Div class="work">
-        <img src="assets/images/scala.jpeg" class="auth-image"
-        alt="scala">
+      <div class="row">
 
-        <h3>Scala</h3>
+        <Div class="work">
+          <img src="assets/images/scala.jpeg" class="auth-image" alt="scala">
+
+          <h3>Scala</h3>
         </Div>
 
-      <Div class="work">
-          <img src="assets/images/html.png" class="auth-image"
-          alt="html">
-  
+        <Div class="work">
+          <img src="assets/images/html.png" class="auth-image" alt="html">
+
           <h3>Html</h3>
-          </Div>
-        
-          
-      <Div class="work">
-          <img src="assets/images/javascript.jpeg" class="auth-image"
-          alt="Javascript">
-  
+        </Div>
+
+
+        <Div class="work">
+          <img src="assets/images/javascript.jpeg" class="auth-image" alt="Javascript">
+
           <h3>Javascript</h3>
-          </Div>
-        
-          
-      <Div class="work">
-          <img src="assets/images/java.png" class="auth-image"
-          alt="Java">
-  
+        </Div>
+
+
+        <Div class="work">
+          <img src="assets/images/java.png" class="auth-image" alt="Java">
+
           <h3>Java</h3>
-          </Div>
-        
-          
-          <Div class="work">
-            <img src="assets/images/c.jpeg" class="auth-image"
-            alt="C">
-    
-            <h3>C</h3>
-            </Div>
-          
-          
-
-      </Div>
+        </Div>
 
 
-    </section>
-    <!-- Top banner Html end -->
+        <Div class="work">
+          <img src="assets/images/c.jpeg" class="auth-image" alt="C">
 
-    <!-- Connect with me banner Section Html Start -->
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect With Me</h2>
+          <h3>C</h3>
+        </Div>
 
-        <img
-          src="assets/images/github.png"
-          class=" 
-          social"
-          alt="Github"
-        />
-        <img src="assets/images/llinkedin.png" class="social" alt="Github" />
-        <img
-          src="assets/images/gmail.png"
-          class="social"
-          alt="Stack Overflow"
-        />
-      </div>
-          <!-- Connect with me with html end  -->
+      </div><!-- .row -->
+    </section><!-- .main-container -->
+  </Div><!-- #main-container -->
 
-          <!-- Footer Html start -->
-          <footer>
-            <div class="container">
-            &copy; Copyright 2019 Sultan Kisana
-            </div>
-          </footer>
-    </section>
-  </body>
+
+  </section>
+  <!-- Top banner Html end -->
+  </div><!-- #main-container -->
+
+  <!-- Footer Html start -->
+  <footer>
+    <div class="container">
+      <div>&copy; Copyright 2019 <a class="footer-link" href="index.html">Sultan Kisana</a></div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
 </html>
-            <!-- Footer Html end -->
+<!-- Footer Html end -->
